@@ -79,7 +79,7 @@ export function auth(options: RequiredOptions, req: http.IncomingMessage, res: h
 
                 // validate the password
                 if (hashPassword(String(password), options.salt) === options.password) {
-                    // create a session id, store it in sessions, assing it to the request via cookies
+                    // create a session id, store it in sessions, assign it to the request via cookies
                     const sessionId = generateToken();
                     sessions[sessionId] = Date.now() + ONE_DAY;
                     res.setHeader('Set-Cookie', `sessionId=${sessionId}; HttpOnly`);

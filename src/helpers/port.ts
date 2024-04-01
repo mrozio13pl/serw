@@ -43,7 +43,7 @@ export function isPortFree({ host, port }: PortOptions): Promise<boolean> {
 }
 
 /**
- * Get an avainable port by incrementing the given port, unless it reaches the maximum.
+ * Get an available port by incrementing the given port, unless it reaches the maximum.
  * @param {PortOptions} options Port and hostname.
  * @returns {Promise<number>}
  */
