@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "dist",
+        "isolatedModules": false,
+        "esModuleInterop": true,
+        "declaration": true,
+        "sourceMap": true,
+        "declarationMap": true,
+        "checkJs": true,
+        "noUncheckedIndexedAccess": true,
+        "module": "NodeNext"
+    },
+    "exclude": ["dist"],
+    "include": ["src"]
+}

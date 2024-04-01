@@ -1,0 +1,2 @@
+This folder contains templates for the frontend.\
+Any value in double curly braces inside the file, e.g. `{{title}}` will be replaced with a value from the server via [templite](https://github.com/lukeed/templite).

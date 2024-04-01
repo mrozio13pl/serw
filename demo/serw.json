@@ -1,0 +1,8 @@
+{
+    "port": 8080,
+    "etag": true,
+    "cors": true,
+    "robots": true,
+    "dotFiles": true,
+    "open": false
+}
