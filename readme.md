@@ -1,4 +1,4 @@
-# serw 🥽 <img src="./assets/logo.png" width="40%" align="right" alt="serw">
+# serw 🥽 [![npm][version]][package] <img src="./assets/logo.png" width="40%" align="right" alt="serw">
 
 Serve static files with ease. 🎆
 
@@ -207,3 +207,7 @@ Disable logging entirely.
 ## License
 
 MIT 💖
+
+<!-- badges -->
+[package]: https://npmjs.com/package/serw
+[version]: https://img.shields.io/npm/v/serw?color=0094FF&label=
